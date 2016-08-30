@@ -6,7 +6,8 @@ output: github_document
 ```{r thando_run ,echo=TRUE}
 data("anscombe")
 head("anscombe")
-
+tail(anscombe)
+summary(anscombe)
 ```
 
 ## GitHub Documents
